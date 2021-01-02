@@ -1,0 +1,119 @@
+button{
+  width         : 150px;
+  height        : 29px;
+  cursor        : pointer;
+  padding       : 5px;
+  font          : bold .6em sans-serif;
+  border        : 2px solid #333;
+  border-radius : 5px;
+  background    : white;
+  }
+  button:hover,
+  button:focus {
+  outline     : none;
+  background  : #000;
+  color       : #FFF;
+  }
+
+  header {
+  margin : 0 auto;
+  border-radius: 20px;
+  line-height: inherit;
+  font-size: 25px;
+  font-weight: bolder;
+  letter-spacing: 10px;
+  color: white;
+  clear: left;
+  padding: 60px;
+  background-color: maroon;
+  box-shadow: inset 0 3px 2px rgba(0,0,0,0.5),
+  inset 0 -3px 2px rgba(0,0,0,0.5);
+  }
+
+  .socmed img {
+  float:right;
+  width: 50px;
+  height: 50px;
+  border-radius: 70px;
+  padding: 0.1em;
+  }
+
+  body {
+    padding: 0.5em;
+    background-color: grey;
+    }
+
+  form {
+  font-family: inherit;
+  width  : 740px;
+  height : 498px;
+  margin : 0 auto;
+  padding: 1em;
+  box-sizing: border-box;
+  background : white;
+  display  : grid;
+  grid-gap : 10px;
+  grid-template-columns : repeat(1, 1fr);
+}
+
+input#input {
+  width : 400px;
+  font-size: 100%;
+}
+  textarea {
+  display : block;
+  padding : 10px;
+  margin  : 10px 10px 10px 0px;
+  width   : 450px;
+  height  : 60px;
+  overflow: auto;
+}
+
+footer {
+     padding: 50px;
+     background-color: maroon;
+     margin : 0 auto;
+     color: white;
+     }
+
+    .footer a {
+    padding: 0.2em;
+    color: white;
+    border-color: inherit;
+    }
+
+    .socmedfooter img {
+    width: 50px;
+    height: 50px;
+    border-radius: 70px;
+    padding: 0.1em;
+    }
+
+    .nextprevious a {
+text-decoration: none;
+display: inline-block;
+padding: 8px 16px;
+margin-left: 90%;
+ }
+
+a:hover {
+background-color: grey;
+color: white;
+}
+
+.previous {
+background-color: black;
+color: white;
+}
+
+.next {
+background-color: white;
+color: black;
+}
+
+.round {
+border-radius: 50%;
+}
+
+.no-localstorage .box { color: red; }
+.localstorage .box { color: green; }
